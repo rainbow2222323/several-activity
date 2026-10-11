@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">exp3</string>
+
+    <!-- MainActivity -->
+    <string name="main_btn_forward">启动二级Activity1（正向传参）</string>
+    <string name="main_btn_back">启动二级Activity2（返回结果）</string>
+    <string name="main_btn_camera">启动二级Activity3（系统相机拍照）</string>
+    <string name="main_btn_stopwatch">启动二级Activity4（秒表）</string>
+    <string name="main_hint_param">请输入要传递的参数</string>
+    <string name="main_result_prefix">返回的结果：</string>
+
+    <!-- 二级Activity1 -->
+    <string name="activity1_title">二级Activity1</string>
+    <string name="activity1_received_prefix">接收到的参数：</string>
+
+    <!-- 二级Activity2 -->
+    <string name="activity2_title">二级Activity2</string>
+    <string name="activity2_hint_input">请输入要返回给MainActivity的内容</string>
+    <string name="activity2_btn_confirm">确定并返回</string>
+
+    <!-- 二级Activity3 -->
+    <string name="activity3_title">二级Activity3</string>
+    <string name="activity3_btn_capture">拍照</string>
+    <string name="activity3_photo_desc">拍摄的照片</string>
+    <string name="activity3_permission_denied">未授予相关权限，无法拍照</string>
+    <string name="activity3_capture_cancelled">已取消拍照</string>
+    <string name="activity3_capture_failed">拍照失败</string>
+    <string name="activity3_no_camera_app">未找到可用的相机应用</string>
+
+    <!-- 二级Activity4 -->
+    <string name="activity4_title">二级Activity4</string>
+    <string name="activity4_time_format">%1$02d:%2$02d:%3$02d.%4$03d</string>
+    <string name="activity4_btn_start">开始</string>
+    <string name="activity4_btn_pause">暂停</string>
+    <string name="activity4_btn_reset">重置</string>
+</resources>
