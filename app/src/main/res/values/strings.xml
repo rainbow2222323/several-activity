@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">exp3</string>
+    <string name="app_name">张恩鸣2024110546</string>
 
     <!-- MainActivity -->
     <string name="main_btn_forward">启动二级Activity1（正向传参）</string>
